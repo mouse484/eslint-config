@@ -31,6 +31,9 @@ module.exports = {
 
     'prefer-spread': 'error', // .apply()代わりにスプレッド演算子を使用
 
+    'keyword-spacing': 'error', // キーワードの空白
+    'no-else-return': 'error', // returnしてるのにelseを使うことを許さない
+
     'no-new-object': 'error', // オブジェクトはリテラル({})を使用して作成する
     'object-shorthand': ['error', 'always'], // オブジェクトのショートハンド構文を使う
     'quote-props': ['error', 'as-needed'], // 必要なときだけプロパティを引用囲う
@@ -49,8 +52,6 @@ module.exports = {
     'prefer-template': 'error', // 文字列連結の代わりにテンプレートリテラルを使用
     'template-curly-spacing': 'error', // テンプレート文字列の空白
 
-    'no-eval': 'error', // eval()を利用しない
-
     'func-style': 'error', // 関数式を利用
     'wrap-iife': 'error', // 即時関数を囲う
     'no-loop-func': 'error', // ループ内で関数を作成しない
@@ -68,13 +69,12 @@ module.exports = {
 
     'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
 
+    'no-eval': 'error', // eval()を利用しない
+
     'no-duplicate-imports': 'error', // 重複したimportの禁止
     'no-import-assign': 'error', // インポートされたバインディングへの割り当てを禁止
 
     'generator-star-spacing': ['error', { before: false, after: true }], // ジェネレータ関数の*の位置
-
-    'keyword-spacing': 'error', // キーワードの空白
-    'no-else-return': 'error', // returnしてるのにelseを使うことを許さない
 
     'spaced-comment': 'error', // コメントの空白
   }
