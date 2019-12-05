@@ -11,6 +11,7 @@ module.exports = {
     rules: {
         'prefer-const': ['error', { destructuring: 'all' }], //constの使用を提案する
         'no-var': 'error', //varを使わない
+        'one-var': ['error', 'never'], //変数は一つず定義する
 
         'no-new-object': 'error', //オブジェクトはリテラル({})を使用して作成する
         'object-shorthand': ['error', 'always'], //オブジェクトのショートハンド構文を使う
