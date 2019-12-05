@@ -40,7 +40,9 @@ module.exports = {
 
         'prefer-arrow-callback': 'error', //アロー関数のコールバック
         'arrow-spacing': 'error', //アロー関数の空白
-        'arrow-parens': ['error', 'as-needed'], //アロー関数の括弧を必要に応じてつける
+        'arrow-parens': ['error', 'as-needed'], //アロー関数の()を必要に応じてつける
+        'arrow-body-style': 'error', //アロー関数の{}を必要に応じてつける
+        
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
