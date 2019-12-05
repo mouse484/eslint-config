@@ -10,6 +10,7 @@ module.exports = {
     extends: "eslint:recommended",
     rules: {
         "prefer-const": ["error", { destructuring: "all" }], //constの使用を提案する
+        "no-var": "error", //varを使わない
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
