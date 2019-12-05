@@ -14,6 +14,8 @@ module.exports = {
         'one-var': ['error', 'never'], //変数は一つず定義する
         'no-multi-assign': 'error', //複数の割当の連鎖を禁止
 
+        'max-len': ['error', { ignoreUrls: true }], //行が長くなりすぎないように
+
         'no-new-object': 'error', //オブジェクトはリテラル({})を使用して作成する
         'object-shorthand': ['error', 'always'], //オブジェクトのショートハンド構文を使う
         'quote-props': ['error', 'as-needed'], //必要なときだけプロパティを引用囲う
