@@ -14,8 +14,12 @@ module.exports = {
         'one-var': ['error', 'never'], //変数は一つず定義する
         'no-multi-assign': 'error', //複数の割当の連鎖を禁止
 
-        'max-len': ['error', { ignoreUrls: true }], //行が長くなりすぎないように
+        'max-len': ['error', { ignoreUrls: true, ignoreComments: true }], //行が長くなりすぎないように
         'operator-linebreak': ['error', 'before'], //改行後の演算子などは前につける
+
+        eqeqeq: 'error', //== x === o
+        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], //++,--を禁止(forだけok)
+        'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
         'no-new-object': 'error', //オブジェクトはリテラル({})を使用して作成する
         'object-shorthand': ['error', 'always'], //オブジェクトのショートハンド構文を使う
@@ -34,10 +38,6 @@ module.exports = {
         'template-curly-spacing': 'error', //テンプレート文字列の空白
 
         'no-eval': 'error', //eval()を利用しない
-
-        eqeqeq: 'error', //== x === o
-        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], //++,--を禁止(forだけok)
-        'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
         'func-style': 'error', //関数式を利用
         'wrap-iife': 'error', //即時関数を囲う
