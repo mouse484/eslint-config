@@ -33,6 +33,8 @@ module.exports = {
     'no-unneeded-ternary': 'error', // 不要な三項演算子の禁止
 
     'prefer-spread': 'error', // .apply()代わりにスプレッド演算子を使用
+    
+    'newline-per-chained-call': 'error', // メソットチェーンの呼び出し毎に改行が必要
 
     'keyword-spacing': 'error', // キーワードの空白
     'no-else-return': 'error', // returnしてるのにelseを使うことを許さない
