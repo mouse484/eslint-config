@@ -44,6 +44,7 @@ module.exports = {
     'object-shorthand': ['error', 'always'], // オブジェクトのショートハンド構文を使う
     'quote-props': ['error', 'as-needed'], // 必要なときだけプロパティを引用囲う
     'object-curly-spacing': ['error', 'always'], // オブジェク内に空白を作る
+    'key-spacing': 'error', // オブジェクトのキーと値の間の隙間
 
     'no-array-constructor': 'error', // 配列はリテラル([])を使用して作成する
     'array-callback-return': 'error', // 配列メソットのコールバックでreturnを利用する
