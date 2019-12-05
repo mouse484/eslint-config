@@ -19,6 +19,7 @@ module.exports = {
         'no-array-constructor': 'error', //配列はリテラル([])を使用して作成する
         'array-callback-return': 'error', //配列メソットのコールバックでreturnを利用する
 
+        'dot-notation': 'error', //.でプロパティにアクセスする
         'prefer-destructuring': 'error', //分割代入を利用
 
         'space-before-blocks': 'error', //{}の前後に空白をつける
@@ -49,6 +50,8 @@ module.exports = {
 
         'no-duplicate-imports': 'error', //重複したimportの禁止
         'no-import-assign': 'error', //インポートされたバインディングへの割り当てを禁止
+
+        'generator-star-spacing': ['error', { before: false, after: true }], //ジェネレータ関数の*の位置
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
