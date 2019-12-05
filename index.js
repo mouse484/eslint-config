@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     indent: ['error', 2], // インデントを2
     camelcase: ['error', { properties: 'never' }], // 変数の命名をキャメルケース(camelCase)にする
+    quotes: ['error', 'single'], // 引用符をシングルクォートにする
 
     'eol-last': 'error',// ファイルの最後に改行を入れる
 
@@ -50,7 +51,6 @@ module.exports = {
     'nonblock-statement-body-position': 'error', // {}を省略した時の本体の位置
     'brace-style': 'error', // {}のスタイル
 
-    quotes: ['error', 'single'], // 引用符をシングルクォートにする
     'prefer-template': 'error', // 文字列連結の代わりにテンプレートリテラルを使用
     'template-curly-spacing': 'error', // テンプレート文字列の空白
 
