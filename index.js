@@ -23,6 +23,7 @@ module.exports = {
 
         quotes: ['error', 'single'], //引用符をシングルクォートにする
         "prefer-template": "error", //文字列連結の代わりにテンプレートリテラルを使用
+        "template-curly-spacing": "error", //テンプレート文字列の空白
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
