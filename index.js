@@ -48,6 +48,7 @@ module.exports = {
         'no-useless-constructor': 'error', //不要なコンストラクターの禁止
 
         'no-duplicate-imports': 'error', //重複したimportの禁止
+        'no-import-assign': 'error', //インポートされたバインディングへの割り当てを禁止
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
