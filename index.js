@@ -33,6 +33,8 @@ module.exports = {
         'no-new-func': 'error', //newで関数を作成しない
         'space-before-function-paren': 'error', //関数の()の前後に空白をつける
 
+        'space-before-blocks': 'error', //{}の前後に空白をつける
+
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
