@@ -13,7 +13,7 @@ module.exports = {
     camelcase: ['error', { properties: 'never' }], // 変数の命名をキャメルケース(camelCase)にする
     quotes: ['error', 'single'], // 引用符をシングルクォートにする
 
-    'eol-last': 'error',// ファイルの最後に改行を入れる
+    'eol-last': 'error', // ファイルの最後に改行を入れる
 
     'prefer-const': ['error', { destructuring: 'all' }], // constの使用を提案する
     'no-var': 'error', // varを使わない
@@ -56,7 +56,7 @@ module.exports = {
     'nonblock-statement-body-position': 'error', // {}を省略した時の本体の位置
     'brace-style': 'error', // {}のスタイル
     'padded-blocks': ['error', 'always'], // ブロックか改行を無し
-    'block-spacing': 'error',// ブロック内空白を無し
+    'block-spacing': 'error', // ブロック内空白を無し
 
     'prefer-template': 'error', // 文字列連結の代わりにテンプレートリテラルを使用
     'template-curly-spacing': 'error', // テンプレート文字列の空白
@@ -75,6 +75,8 @@ module.exports = {
     'arrow-body-style': 'error', // アロー関数の{}を必要に応じてつける
     'no-confusing-arrow': 'error', // 比較と混同される可能性のある矢印関数を禁止
     'implicit-arrow-linebreak': 'error', // アロー関数の暗黙的な返り値を利用する場合の本体の位置
+
+    'comma-spacing': 'error', // コンマの位置
 
     'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
 
