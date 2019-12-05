@@ -31,6 +31,7 @@ module.exports = {
         'wrap-iife': 'error', //即時関数を囲う
         'no-loop-func': 'error', //ループ内で関数を作成しない
         'no-new-func': 'error', //newで関数を作成しない
+        'space-before-function-paren': 'error', //関数の()の前後に空白をつける
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
