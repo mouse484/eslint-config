@@ -82,6 +82,7 @@ module.exports = {
     'implicit-arrow-linebreak': 'error', // アロー関数の暗黙的な返り値を利用する場合の本体の位置
 
     'comma-spacing': 'error', // コンマの位置
+    'comma-style': 'error', // コンマを後ろにつける
 
     'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
 
