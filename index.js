@@ -14,6 +14,7 @@ module.exports = {
     quotes: ['error', 'single'], // 引用符をシングルクォートにする
 
     'eol-last': 'error', // ファイルの最後に改行を入れる
+    'no-trailing-spaces': 'error', // 行末の空白を削除
 
     'prefer-const': ['error', { destructuring: 'all' }], // constの使用を提案する
     'no-var': 'error', // varを使わない
