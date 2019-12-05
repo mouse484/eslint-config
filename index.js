@@ -13,7 +13,7 @@ module.exports = {
         "no-var": "error", //varを使わない
         "no-new-object": "error", //オブジェクトはリテラル({})を使用して作成する
         "object-shorthand": ["error", "always"], //オブジェクトのショートハンド構文を使う
-        "quote-props": ["error", "as-needed"], //必要なときだけぷプロパティを引用囲う
+        "quote-props": ["error", "as-needed"], //必要なときだけプロパティを引用囲う
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
