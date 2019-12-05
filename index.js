@@ -19,6 +19,10 @@ module.exports = {
         "no-array-constructor": "error", //配列はリテラル([])を使用して作成する
         "array-callback-return": "error", //配列メソットのコールバックでreturnを利用する
 
+        "prefer-destructuring": "error", //分割代入を利用
+
+        quotes: ["error", "single"], //引用符をシングルクォートにする
+
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
