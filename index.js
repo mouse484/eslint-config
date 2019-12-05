@@ -21,11 +21,14 @@ module.exports = {
 
         'prefer-destructuring': 'error', //分割代入を利用
 
+        'space-before-blocks': 'error', //{}の前後に空白をつける
+
         quotes: ['error', 'single'], //引用符をシングルクォートにする
         'prefer-template': 'error', //文字列連結の代わりにテンプレートリテラルを使用
         'template-curly-spacing': 'error', //テンプレート文字列の空白
 
         'no-eval': 'error', //eval()を利用しない
+        'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
         'func-style': 'error', //関数式を利用
         'wrap-iife': 'error', //即時関数を囲う
@@ -35,9 +38,7 @@ module.exports = {
         'no-param-reassign': 'error', //関数パラメーターの再割り当てを許可しない
         'function-paren-newline': 'error', //関数の括弧内で一貫した改行を強制する
 
-        'space-before-blocks': 'error', //{}の前後に空白をつける
-
-        'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
+        'prefer-arrow-callback': 'error', //アロー関数のコールバック
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
