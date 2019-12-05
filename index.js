@@ -11,10 +11,13 @@ module.exports = {
     rules: {
         "prefer-const": ["error", { destructuring: "all" }], //constの使用を提案する
         "no-var": "error", //varを使わない
+
         "no-new-object": "error", //オブジェクトはリテラル({})を使用して作成する
         "object-shorthand": ["error", "always"], //オブジェクトのショートハンド構文を使う
         "quote-props": ["error", "as-needed"], //必要なときだけプロパティを引用囲う
+
         "no-array-constructor": "error", //配列はリテラル([])を使用して作成する
+
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
