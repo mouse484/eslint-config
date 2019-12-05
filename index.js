@@ -72,6 +72,7 @@ module.exports = {
 
     'generator-star-spacing': ['error', { before: false, after: true }], // ジェネレータ関数の*の位置
 
+    'keyword-spacing': 'error', // キーワードの空白
     'no-else-return': 'error', // returnしてるのにelseを使うことを許さない
 
     'spaced-comment': 'error', // コメントの空白
