@@ -8,4 +8,7 @@ module.exports = {
         ecmaVersion: 2020,
     },
     extends: "eslint:recommended",
+    rules: {
+        camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
+    }
 };
