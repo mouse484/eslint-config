@@ -33,6 +33,7 @@ module.exports = {
         'no-new-func': 'error', //newで関数を作成しない
         'space-before-function-paren': 'error', //関数の()の前後に空白をつける
         'no-param-reassign': 'error', //関数パラメーターの再割り当てを許可しない
+        'function-paren-newline': 'error', //関数の括弧内で一貫した改行を強制する
 
         'space-before-blocks': 'error', //{}の前後に空白をつける
 
