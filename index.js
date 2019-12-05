@@ -43,6 +43,7 @@ module.exports = {
         'arrow-parens': ['error', 'as-needed'], //アロー関数の()を必要に応じてつける
         'arrow-body-style': 'error', //アロー関数の{}を必要に応じてつける
         'no-confusing-arrow': 'error', //比較と混同される可能性のある矢印関数を禁止
+        'implicit-arrow-linebreak': 'error', //アロー関数の暗黙的な返り値を利用する場合の本体の位置
         
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
