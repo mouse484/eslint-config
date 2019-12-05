@@ -23,6 +23,7 @@ module.exports = {
 
     'no-mixed-operators': 'error', // 複数の演算子が混同する場合()で囲う
     'operator-linebreak': ['error', 'before'], // 改行後の演算子などは前につける
+    'space-infix-ops': 'error', // 演算子周りの空白
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], // ++,--を禁止(forだけok)
 
     'no-nested-ternary': 'error', // ネストされた三項演算子の禁止
