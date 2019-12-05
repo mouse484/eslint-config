@@ -64,6 +64,8 @@ module.exports = {
         'no-nested-ternary': 'error', //ネストされた三項演算子の禁止
         'no-unneeded-ternary': 'error', //不要な三項演算子の禁止
 
+        'no-mixed-operators': 'error', //複数の演算子が混同する場合()で囲う
+
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
