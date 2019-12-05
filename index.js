@@ -38,7 +38,7 @@ module.exports = {
     'no-else-return': 'error', // returnしてるのにelseを使うことを許さない
 
     'keyword-spacing': 'error', // キーワードの空白
-    "space-in-parens": "error", //()内のスペース無し
+    'space-in-parens': 'error', // ()内のスペース無し
 
     'no-new-object': 'error', // オブジェクトはリテラル({})を使用して作成する
     'object-shorthand': ['error', 'always'], // オブジェクトのショートハンド構文を使う
@@ -46,6 +46,7 @@ module.exports = {
 
     'no-array-constructor': 'error', // 配列はリテラル([])を使用して作成する
     'array-callback-return': 'error', // 配列メソットのコールバックでreturnを利用する
+    'array-bracket-spacing': 'error', // 配列内のスペース禁止
 
     'dot-notation': 'error', // .でプロパティにアクセスする
     'prefer-destructuring': 'error', // 分割代入を利用
