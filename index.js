@@ -15,10 +15,16 @@ module.exports = {
         'no-multi-assign': 'error', //複数の割当の連鎖を禁止
 
         'max-len': ['error', { ignoreUrls: true, ignoreComments: true }], //行が長くなりすぎないように
-        'operator-linebreak': ['error', 'before'], //改行後の演算子などは前につける
 
         eqeqeq: 'error', //== x === o
+
+        'no-mixed-operators': 'error', //複数の演算子が混同する場合()で囲う
+        'operator-linebreak': ['error', 'before'], //改行後の演算子などは前につける
         'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], //++,--を禁止(forだけok)
+
+        'no-nested-ternary': 'error', //ネストされた三項演算子の禁止
+        'no-unneeded-ternary': 'error', //不要な三項演算子の禁止
+
         'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
         'no-new-object': 'error', //オブジェクトはリテラル({})を使用して作成する
@@ -60,11 +66,6 @@ module.exports = {
         'no-import-assign': 'error', //インポートされたバインディングへの割り当てを禁止
 
         'generator-star-spacing': ['error', { before: false, after: true }], //ジェネレータ関数の*の位置
-
-        'no-nested-ternary': 'error', //ネストされた三項演算子の禁止
-        'no-unneeded-ternary': 'error', //不要な三項演算子の禁止
-
-        'no-mixed-operators': 'error', //複数の演算子が混同する場合()で囲う
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
