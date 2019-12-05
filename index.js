@@ -15,6 +15,7 @@ module.exports = {
         'no-multi-assign': 'error', //複数の割当の連鎖を禁止
 
         'max-len': ['error', { ignoreUrls: true }], //行が長くなりすぎないように
+        'operator-linebreak': ['error', 'before'], //改行後の演算子などは前につける
 
         'no-new-object': 'error', //オブジェクトはリテラル({})を使用して作成する
         'object-shorthand': ['error', 'always'], //オブジェクトのショートハンド構文を使う
@@ -34,6 +35,7 @@ module.exports = {
 
         'no-eval': 'error', //eval()を利用しない
 
+        eqeqeq: 'error', //== x === o
         'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], //++,--を禁止(forだけok)
         'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
