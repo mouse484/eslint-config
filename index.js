@@ -32,6 +32,7 @@ module.exports = {
         'no-loop-func': 'error', //ループ内で関数を作成しない
         'no-new-func': 'error', //newで関数を作成しない
         'space-before-function-paren': 'error', //関数の()の前後に空白をつける
+        'no-param-reassign': 'error', //関数パラメーターの再割り当てを許可しない
 
         'space-before-blocks': 'error', //{}の前後に空白をつける
 
