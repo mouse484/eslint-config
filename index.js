@@ -2,10 +2,10 @@
 
 module.exports = {
   env: {
-    es6: true,
+    es6: true
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2020
   },
   extends: 'eslint:recommended',
   rules: {
@@ -83,6 +83,7 @@ module.exports = {
 
     'comma-spacing': 'error', // コンマの位置
     'comma-style': 'error', // コンマを後ろにつける
+    'comma-dangle': 'error', // オブジェクト等の最後のコンマは無し
 
     'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
 
@@ -93,6 +94,6 @@ module.exports = {
 
     'generator-star-spacing': ['error', { before: false, after: true }], // ジェネレータ関数の*の位置
 
-    'spaced-comment': 'error', // コメントの空白
+    'spaced-comment': 'error' // コメントの空白
   }
 };
