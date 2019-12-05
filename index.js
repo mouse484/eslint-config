@@ -38,6 +38,7 @@ module.exports = {
         'prefer-destructuring': 'error', //分割代入を利用
 
         'space-before-blocks': 'error', //{}の前後に空白をつける
+        'nonblock-statement-body-position': 'error', //{}を省略した時の本体の位置
 
         quotes: ['error', 'single'], //引用符をシングルクォートにする
         'prefer-template': 'error', //文字列連結の代わりにテンプレートリテラルを使用
