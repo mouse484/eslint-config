@@ -31,6 +31,8 @@ module.exports = {
         'template-curly-spacing': 'error', //テンプレート文字列の空白
 
         'no-eval': 'error', //eval()を利用しない
+
+        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], //++,--を禁止(forだけok)
         'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
 
         'func-style': 'error', //関数式を利用
