@@ -11,6 +11,7 @@ module.exports = {
     rules: {
         "prefer-const": ["error", { destructuring: "all" }], //constの使用を提案する
         "no-var": "error", //varを使わない
+        "no-new-object": "error", //オブジェクトはリテラル({})を使用して作成する
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
