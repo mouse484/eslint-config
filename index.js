@@ -69,6 +69,8 @@ module.exports = {
 
         'generator-star-spacing': ['error', { before: false, after: true }], //ジェネレータ関数の*の位置
 
+        'no-else-return': 'error', //returnしてるのにelseを使うことを許さない
+
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
