@@ -22,6 +22,8 @@ module.exports = {
     'one-var': ['error', 'never'], // 変数は一つず定義する
     'no-multi-assign': 'error', // 複数の割当の連鎖を禁止
 
+    'id-length': 'error', // 変数名最低でも2文字以上にする
+
     'max-len': ['error', { ignoreUrls: true, ignoreComments: true }], // 行が長くなりすぎないように
 
     eqeqeq: 'error', // == x === o
