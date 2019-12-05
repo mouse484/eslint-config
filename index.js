@@ -22,10 +22,10 @@ module.exports = {
         'prefer-destructuring': 'error', //分割代入を利用
 
         quotes: ['error', 'single'], //引用符をシングルクォートにする
-        "prefer-template": "error", //文字列連結の代わりにテンプレートリテラルを使用
-        "template-curly-spacing": "error", //テンプレート文字列の空白
+        'prefer-template': 'error', //文字列連結の代わりにテンプレートリテラルを使用
+        'template-curly-spacing': 'error', //テンプレート文字列の空白
 
-        "no-eval": "error", //eval()を利用しない
+        'no-eval': 'error', //eval()を利用しない
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
