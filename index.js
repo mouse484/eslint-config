@@ -55,7 +55,8 @@ module.exports = {
     'space-before-blocks': 'error', // {}の前後に空白をつける
     'nonblock-statement-body-position': 'error', // {}を省略した時の本体の位置
     'brace-style': 'error', // {}のスタイル
-    'padded-blocks': ['error', 'always'], // ブロック内空白を作らない
+    'padded-blocks': ['error', 'always'], // ブロックか改行を無し
+    'block-spacing': 'error',// ブロック内空白を無し
 
     'prefer-template': 'error', // 文字列連結の代わりにテンプレートリテラルを使用
     'template-curly-spacing': 'error', // テンプレート文字列の空白
