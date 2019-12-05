@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 module.exports = {
     env: {
         node: true,
     },
     parserOptions: {
-        sourceType: "module"
+        sourceType: 'module'
     },
 };
