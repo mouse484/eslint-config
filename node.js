@@ -2,9 +2,9 @@
 
 module.exports = {
   env: {
-    node: true,
+    node: true
   },
   parserOptions: {
     sourceType: 'module'
-  },
+  }
 };

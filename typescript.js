@@ -5,13 +5,13 @@ module.exports = {
     sourceType: 'module'
   },
   extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/eslint-recommended'
   ],
   overrides: [
     {
       files: ['*.ts'],
       plugins: ['@typescript-eslint'],
-      parser: '@typescript-eslint/parser',
+      parser: '@typescript-eslint/parser'
     }
   ]
 };

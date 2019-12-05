@@ -15,13 +15,13 @@ module.exports = {
       bracketSpacing: true,
       arrowParens: 'avoid',
       vueIndentScriptAndStyle: true,
-      endOfLine: 'lf',
-    }],
+      endOfLine: 'lf'
+    }]
   },
   overrides: [
     {
       files: ['*.ts'],
-      extends: ['prettier/@typescript-eslint'],
+      extends: ['prettier/@typescript-eslint']
     }
   ]
 };
