@@ -15,6 +15,7 @@ module.exports = {
 
     'eol-last': 'error', // ファイルの最後に改行を入れる
     'no-trailing-spaces': 'error', // 行末の空白を削除
+    'no-multiple-empty-lines': 'error', // なにもないムダな改行の禁止
 
     'prefer-const': ['error', { destructuring: 'all' }], // constの使用を提案する
     'no-var': 'error', // varを使わない
