@@ -28,6 +28,7 @@ module.exports = {
         'no-eval': 'error', //eval()を利用しない
 
         'func-style': 'error', //関数式を利用
+        'wrap-iife': 'error', //即時関数を囲う
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
