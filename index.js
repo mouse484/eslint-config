@@ -87,6 +87,8 @@ module.exports = {
 
     'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
 
+    'no-new-wrappers': 'error', // Stringとかはnew無しで使う
+
     'no-eval': 'error', // eval()を利用しない
 
     'no-duplicate-imports': 'error', // 重複したimportの禁止
