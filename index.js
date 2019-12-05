@@ -17,6 +17,7 @@ module.exports = {
         "quote-props": ["error", "as-needed"], //必要なときだけプロパティを引用囲う
 
         "no-array-constructor": "error", //配列はリテラル([])を使用して作成する
+        "array-callback-return": "error", //配列メソットのコールバックでreturnを利用する
 
         camelcase: ["error", { properties: "never" }], //変数の命名をキャメルケース(camelCase)にする
     }
