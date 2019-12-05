@@ -12,6 +12,8 @@ module.exports = {
     indent: ['error', 2], // インデントを2
     camelcase: ['error', { properties: 'never' }], // 変数の命名をキャメルケース(camelCase)にする
 
+    'eol-last': 'error',// ファイルの最後に改行を入れる
+
     'prefer-const': ['error', { destructuring: 'all' }], // constの使用を提案する
     'no-var': 'error', // varを使わない
     'one-var': ['error', 'never'], // 変数は一つず定義する
