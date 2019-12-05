@@ -39,6 +39,7 @@ module.exports = {
         'function-paren-newline': 'error', //関数の括弧内で一貫した改行を強制する
 
         'prefer-arrow-callback': 'error', //アロー関数のコールバック
+        'arrow-spacing': 'error', //アロー関数の空白
 
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
