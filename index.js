@@ -48,6 +48,7 @@ module.exports = {
     'no-array-constructor': 'error', // 配列はリテラル([])を使用して作成する
     'array-callback-return': 'error', // 配列メソットのコールバックでreturnを利用する
     'array-bracket-spacing': 'error', // 配列内のスペース禁止
+    'computed-property-spacing': 'error', // []添字の空白なし
 
     'dot-notation': 'error', // .でプロパティにアクセスする
     'prefer-destructuring': 'error', // 分割代入を利用
