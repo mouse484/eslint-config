@@ -36,6 +36,8 @@ module.exports = {
 
         'space-before-blocks': 'error', //{}の前後に空白をつける
 
+        'prefer-spread': 'error', //.apply()代わりにスプレッド演算子を使用
+
         camelcase: ['error', { properties: 'never' }], //変数の命名をキャメルケース(camelCase)にする
     }
 };
