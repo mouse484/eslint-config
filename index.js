@@ -69,6 +69,7 @@ module.exports = {
     'space-before-function-paren': 'error', // 関数の()の前後に空白をつける
     'no-param-reassign': 'error', // 関数パラメーターの再割り当てを許可しない
     'function-paren-newline': 'error', // 関数の括弧内で一貫した改行を強制する
+    'func-call-spacing': 'error', // 関数実行の位置
 
     'prefer-arrow-callback': 'error', // アロー関数のコールバック
     'arrow-spacing': 'error', // アロー関数の空白
