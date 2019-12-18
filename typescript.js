@@ -11,7 +11,10 @@ module.exports = {
     {
       files: ['*.ts'],
       plugins: ['@typescript-eslint'],
-      parser: '@typescript-eslint/parser'
+      parser: '@typescript-eslint/parser',
+      rules: {
+        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+      },
     }
   ],
   ignorePatterns: ["dist/"],
