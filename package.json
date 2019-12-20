@@ -1,26 +1,27 @@
 {
-    "name": "eslint-config-mouse",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/mouse484/eslint-config.git",
-    "author": "mouse_484 <escmouse484@gmail.com>",
-    "license": "MIT",
-    "scripts": {
-        "lint": "eslint .",
-        "fix": "eslint --fix ."
-    },
-    "eslintConfig": {
-        "extends": [
-            "./index.js",
-            "./node.js"
-        ]
-    },
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^2.9.0",
-        "@typescript-eslint/parser": "^2.9.0",
-        "eslint": "^6.7.1",
-        "eslint-config-prettier": "^6.7.0",
-        "eslint-plugin-prettier": "^3.1.1",
-        "prettier": "^1.19.1"
-    }
+  "name": "eslint-config-mouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mouse484/eslint-config.git",
+  "author": "mouse_484 <escmouse484@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js",
+      "./node.js"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
+  }
 }

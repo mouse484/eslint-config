@@ -13,9 +13,9 @@ module.exports = {
       plugins: ['@typescript-eslint'],
       parser: '@typescript-eslint/parser',
       rules: {
-        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
-      },
+        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }]
+      }
     }
   ],
-  ignorePatterns: ["dist/"],
+  ignorePatterns: ['dist/']
 };
