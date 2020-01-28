@@ -18,10 +18,4 @@ module.exports = {
       endOfLine: 'lf'
     }]
   },
-  overrides: [
-    {
-      files: ['*.ts'],
-      extends: ['prettier/@typescript-eslint']
-    }
-  ]
 };
