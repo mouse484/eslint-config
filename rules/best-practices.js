@@ -41,5 +41,8 @@ module.exports = {
 
     // for-in内でifが必要
     'guard-for-in': 'error',
+
+    // ファイル内の最大クラス数
+    'max-classes-per-file': ['error', 2],
   }
 }
