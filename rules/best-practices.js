@@ -35,5 +35,8 @@ module.exports = {
 
     // ===を強制 (null以外)
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+
+    // グループ化されたアクセサペアが必須 (get,set)
+    'grouped-accessor-pairs': 'error',
   }
 }
