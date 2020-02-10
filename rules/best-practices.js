@@ -11,5 +11,8 @@ module.exports = {
 
     // thisの無いClassメゾットを禁止
     'class-methods-use-this': 'error',
+
+    // 循環的複雑度を制限する（11まで)
+    complexity: ['error', 11],
   }
 }
