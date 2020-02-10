@@ -26,5 +26,8 @@ module.exports = {
 
     // デフォルト パラメーターを最後に付ける
     'default-param-last': 'error',
+
+    // ドットをプロパティの前に付ける
+    'dot-location': ['error', 'property'],
   }
 }
