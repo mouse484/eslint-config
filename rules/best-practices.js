@@ -17,5 +17,8 @@ module.exports = {
 
     // 一貫性のある戻り値 (retrun)
     'consistent-return': 'error',
+
+    // すべての制御文の中括弧
+    curly: ['error', 'multi-line'],
   }
 }
