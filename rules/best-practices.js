@@ -38,5 +38,8 @@ module.exports = {
 
     // グループ化されたアクセサペアが必須 (get,set)
     'grouped-accessor-pairs': 'error',
+
+    // for-in内でifが必要
+    'guard-for-in': 'error',
   }
 }
