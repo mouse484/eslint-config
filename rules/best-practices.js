@@ -23,5 +23,8 @@ module.exports = {
 
     // Switch文のデフォルトケースを要求する
     'default-case': ['error', { commentPattern: '^no default$' }],
+
+    // デフォルト パラメーターを最後に付ける
+    'default-param-last': 'error',
   }
 }
