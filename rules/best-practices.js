@@ -20,5 +20,8 @@ module.exports = {
 
     // すべての制御文の中括弧
     curly: ['error', 'multi-line'],
+
+    // Switch文のデフォルトケースを要求する
+    'default-case': ['error', { commentPattern: '^no default$' }],
   }
 }
