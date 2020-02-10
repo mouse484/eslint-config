@@ -1,5 +1,9 @@
 module.exports = {
   rules: {
-    'accessor-pairs': 'off', //セッターとゲッターのペアーを強制する
+    // セッターとゲッターのペアーを強制する
+    'accessor-pairs': 'off',
+
+    // 配列のメソッドのコールバックでreturnを強制します (map,some..)
+    'array-callback-return': ['error', { allowImplicit: true }],
   }
 }
