@@ -29,5 +29,8 @@ module.exports = {
 
     // ドットをプロパティの前に付ける
     'dot-location': ['error', 'property'],
+
+    // できる限りドット表記でプロパティにアクセスする
+    'dot-notation': ['error', { allowKeywords: true }],
   }
 }
