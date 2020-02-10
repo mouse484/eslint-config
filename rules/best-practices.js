@@ -8,5 +8,8 @@ module.exports = {
 
     // varをブロックスコープとして扱う
     'block-scoped-var': 'error',
+
+    // thisの無いClassメゾットを禁止
+    'class-methods-use-this': 'error',
   }
 }
