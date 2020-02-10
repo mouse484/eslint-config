@@ -14,5 +14,8 @@ module.exports = {
 
     // 循環的複雑度を制限する（11まで)
     complexity: ['error', 11],
+
+    // 一貫性のある戻り値 (retrun)
+    'consistent-return': 'error',
   }
 }
