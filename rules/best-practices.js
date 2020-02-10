@@ -32,5 +32,8 @@ module.exports = {
 
     // できる限りドット表記でプロパティにアクセスする
     'dot-notation': ['error', { allowKeywords: true }],
+
+    // ===を強制 (null以外)
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
   }
 }
