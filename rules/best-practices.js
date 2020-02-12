@@ -53,5 +53,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-case-declarations.html
     'no-case-declarations': 'error',
+
+    // constructorで値を返さない
+    'no-constructor-return': 'off',
   }
 }
