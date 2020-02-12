@@ -56,5 +56,8 @@ module.exports = {
 
     // constructorで値を返さない
     'no-constructor-return': 'off',
+
+    // 正規表現内の演算子を明確にする
+    'no-div-regex': 'error',
   }
 }
