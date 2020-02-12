@@ -50,5 +50,8 @@ module.exports = {
 
     // arguments.callerまたはarguments.calleeの利用を禁止
     'no-caller': 'error',
+
+    // https://eslint.org/docs/rules/no-case-declarations.html
+    'no-case-declarations': 'error',
   }
 }
