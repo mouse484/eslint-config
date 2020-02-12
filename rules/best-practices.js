@@ -47,5 +47,8 @@ module.exports = {
 
     // アラートの使用を許可しない (alert/confirm/prompt)
     'no-alert': 'warn',
+
+    // arguments.callerまたはarguments.calleeの利用を禁止
+    'no-caller': 'error',
   }
 }
