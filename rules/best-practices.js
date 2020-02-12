@@ -62,5 +62,14 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-else-return
     'no-else-return': ['error', { allowElseIf: false }],
+
+    // 空の関数を許可しない
+    'no-empty-function': ['error', {
+      allow: [
+        'arrowFunctions',
+        'functions',
+        'methods',
+      ]
+    }],
   }
 }
