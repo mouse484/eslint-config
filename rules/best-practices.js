@@ -59,5 +59,8 @@ module.exports = {
 
     // 正規表現内の演算子を明確にする
     'no-div-regex': 'error',
+
+    // https://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['error', { allowElseIf: false }],
   }
 }
