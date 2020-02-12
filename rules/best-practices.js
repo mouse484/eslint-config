@@ -44,5 +44,8 @@ module.exports = {
 
     // ファイル内の最大クラス数
     'max-classes-per-file': ['error', 2],
+
+    // アラートの使用を許可しない (alert/confirm/prompt)
+    'no-alert': 'warn',
   }
 }
