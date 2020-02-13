@@ -109,5 +109,8 @@ module.exports = {
 
     // disallow var and named functions in global scope
     'no-implicit-globals': 'off',
+
+    // eval()のような関数の利用を禁止
+    'no-implied-eval': 'error',
   }
 }
