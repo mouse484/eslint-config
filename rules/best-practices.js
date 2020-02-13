@@ -95,5 +95,8 @@ module.exports = {
 
     // Numberの前や後ろに小数点を使用する事の禁止
     'no-floating-decimal': 'error',
+
+    // ネイティブオブジェクトまたは読み取り専用グローバル変数への割り当て禁止
+    'no-global-assign': ['error', { exceptions: [] }],
   }
 }
