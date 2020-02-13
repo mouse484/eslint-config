@@ -106,5 +106,8 @@ module.exports = {
       string: true,
       allow: [],
     }],
+
+    // disallow var and named functions in global scope
+    'no-implicit-globals': 'off',
   }
 }
