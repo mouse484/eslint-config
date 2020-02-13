@@ -77,5 +77,8 @@ module.exports = {
 
     // ===でnullを比較する
     'no-eq-null': 'off',
+
+    // eval()の利用を禁止
+    'no-eval': 'error',
   }
 }
