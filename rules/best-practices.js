@@ -98,5 +98,13 @@ module.exports = {
 
     // ネイティブオブジェクトまたは読み取り専用グローバル変数への割り当て禁止
     'no-global-assign': ['error', { exceptions: [] }],
+
+    // 短い表記での型変換を禁止 (booleanを許可)
+    'no-implicit-coercion': ['error', {
+      boolean: false,
+      number: true,
+      string: true,
+      allow: [],
+    }],
   }
 }
