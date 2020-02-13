@@ -83,5 +83,8 @@ module.exports = {
 
     // ネイティブ型の変更を禁止
     'no-extend-native': 'error',
+
+    // 不要な関数のバインディングを禁止
+    'no-extra-bind': 'error',
   }
 }
