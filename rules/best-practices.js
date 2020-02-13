@@ -86,5 +86,8 @@ module.exports = {
 
     // 不要な関数のバインディングを禁止
     'no-extra-bind': 'error',
+
+    // 不要なラベルの禁止
+    'no-extra-label': 'error',
   }
 }
