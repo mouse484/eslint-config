@@ -74,5 +74,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-empty-pattern
     'no-empty-pattern': 'error',
+
+    // ===でnullを比較する
+    'no-eq-null': 'off',
   }
 }
