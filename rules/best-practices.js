@@ -80,5 +80,8 @@ module.exports = {
 
     // eval()の利用を禁止
     'no-eval': 'error',
+
+    // ネイティブ型の変更を禁止
+    'no-extend-native': 'error',
   }
 }
