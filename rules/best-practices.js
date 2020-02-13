@@ -71,5 +71,8 @@ module.exports = {
         'methods',
       ]
     }],
+
+    // https://eslint.org/docs/rules/no-empty-pattern
+    'no-empty-pattern': 'error',
   }
 }
