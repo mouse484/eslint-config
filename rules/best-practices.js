@@ -89,5 +89,8 @@ module.exports = {
 
     // 不要なラベルの禁止
     'no-extra-label': 'error',
+
+    // case文のフォールスルーを禁止
+    'no-fallthrough': 'error',
   }
 }
