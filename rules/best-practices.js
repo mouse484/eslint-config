@@ -121,5 +121,8 @@ module.exports = {
 
     // ラベルの禁止
     'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
+
+    // 不要なブロックを許可しない
+    'no-lone-blocks': 'error',
   }
 }
