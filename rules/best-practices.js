@@ -118,5 +118,8 @@ module.exports = {
 
     // __iterator__ プロパティの禁止
     'no-iterator': 'error',
+
+    // ラベルの禁止
+    'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
   }
 }
