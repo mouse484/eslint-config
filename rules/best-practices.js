@@ -144,5 +144,8 @@ module.exports = {
 
     // 割り当てまたは比較の一部ではない場合、new演算子の使用を禁止
     'no-new': 'error',
+
+    // (new) Function の利用を禁止
+    'no-new-func': 'error',
   }
 }
