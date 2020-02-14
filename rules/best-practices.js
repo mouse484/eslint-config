@@ -138,5 +138,8 @@ module.exports = {
 
     // 重複スペースの禁止
     'no-multi-spaces': 'error',
+
+    // 複数行に渡る文字列の禁止
+    'no-multi-str': 'error',
   }
 }
