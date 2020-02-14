@@ -147,5 +147,8 @@ module.exports = {
 
     // (new) Function の利用を禁止
     'no-new-func': 'error',
+
+    // プリミティブタイプの作成にnewを使わない
+    'no-new-wrappers': 'error',
   }
 }
