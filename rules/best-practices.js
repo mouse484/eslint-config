@@ -124,5 +124,8 @@ module.exports = {
 
     // 不要なブロックを許可しない
     'no-lone-blocks': 'error',
+
+    // ループ内での関数作成を禁止
+    'no-loop-func': 'error',
   }
 }
