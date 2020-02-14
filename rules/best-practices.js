@@ -112,5 +112,8 @@ module.exports = {
 
     // eval()のような関数の利用を禁止
     'no-implied-eval': 'error',
+
+    // クラス以外でのthisの禁止
+    'no-invalid-this': 'off',
   }
 }
