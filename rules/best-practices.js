@@ -127,5 +127,13 @@ module.exports = {
 
     // ループ内での関数作成を禁止
     'no-loop-func': 'error',
+
+    // マジックナンバーを禁止
+    'no-magic-numbers': ['error', {
+      ignore: [],
+      ignoreArrayIndexes: true,
+      enforceConst: true,
+      detectObjects: false,
+    }],
   }
 }
