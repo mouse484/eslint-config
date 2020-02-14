@@ -115,5 +115,8 @@ module.exports = {
 
     // クラス以外でのthisの禁止
     'no-invalid-this': 'off',
+
+    // __iterator__ プロパティの禁止
+    'no-iterator': 'error',
   }
 }
