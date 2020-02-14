@@ -135,5 +135,8 @@ module.exports = {
       enforceConst: true,
       detectObjects: false,
     }],
+
+    // 重複スペースの禁止
+    'no-multi-spaces': 'error',
   }
 }
