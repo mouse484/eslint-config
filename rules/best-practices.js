@@ -141,5 +141,8 @@ module.exports = {
 
     // 複数行に渡る文字列の禁止
     'no-multi-str': 'error',
+
+    // 割り当てまたは比較の一部ではない場合、new演算子の使用を禁止
+    'no-new': 'error',
   }
 }
