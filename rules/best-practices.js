@@ -150,5 +150,8 @@ module.exports = {
 
     // プリミティブタイプの作成にnewを使わない
     'no-new-wrappers': 'error',
+
+    // 8進数の禁止
+    'no-octal': 'error',
   }
 }
