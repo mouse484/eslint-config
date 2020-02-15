@@ -168,5 +168,8 @@ module.exports = {
 
     // 同じ変数を複数回宣言することを禁止
     'no-redeclare': 'error',
+
+    // 特定のオブジェクトプロパティを禁止
+    'no-restricted-properties': ['error', {}],
   }
 }
