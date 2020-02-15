@@ -171,5 +171,8 @@ module.exports = {
 
     // 特定のオブジェクトプロパティを禁止
     'no-restricted-properties': ['error', {}],
+
+    // returnでの割当を禁止
+    'no-return-assign': ['error', 'always'],
   }
 }
