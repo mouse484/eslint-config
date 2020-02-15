@@ -177,5 +177,8 @@ module.exports = {
 
     // `return await`を禁止
     'no-return-await': 'error',
+
+    // `javascript:` urlを禁止
+    'no-script-url': 'error',
   }
 }
