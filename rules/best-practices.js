@@ -156,5 +156,11 @@ module.exports = {
 
     // 8進数エスケープを禁止
     'no-octal-escape': 'error',
+
+    // 関数パラメーターの再割り当てを許可しない
+    'no-param-reassign': ['error', {
+      props: true,
+      ignorePropertyModificationsFor: []
+    }],
   }
 }
