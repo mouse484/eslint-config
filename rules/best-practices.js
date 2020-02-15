@@ -162,5 +162,8 @@ module.exports = {
       props: true,
       ignorePropertyModificationsFor: []
     }],
+
+    //  __proto__ プロパティの利用を禁止
+    'no-proto': 'error',
   }
 }
