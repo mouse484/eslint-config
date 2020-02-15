@@ -153,5 +153,8 @@ module.exports = {
 
     // 8進数の禁止
     'no-octal': 'error',
+
+    // 8進数エスケープを禁止
+    'no-octal-escape': 'error',
   }
 }
