@@ -165,5 +165,8 @@ module.exports = {
 
     //  __proto__ プロパティの利用を禁止
     'no-proto': 'error',
+
+    // 同じ変数を複数回宣言することを禁止
+    'no-redeclare': 'error',
   }
 }
