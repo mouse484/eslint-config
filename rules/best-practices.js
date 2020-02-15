@@ -174,5 +174,8 @@ module.exports = {
 
     // returnでの割当を禁止
     'no-return-assign': ['error', 'always'],
+
+    // `return await`を禁止
+    'no-return-await': 'error',
   }
 }
