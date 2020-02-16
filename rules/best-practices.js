@@ -222,5 +222,8 @@ module.exports = {
 
     // 不要な`return`の禁止
     'no-useless-return': 'error',
+
+    // voidの禁止
+    'no-void': 'error',
   }
 }
