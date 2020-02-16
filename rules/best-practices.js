@@ -256,5 +256,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/wrap-iife
     'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
+
+    // https://eslint.org/docs/rules/yoda
+    yoda: 'error'
   }
 }
