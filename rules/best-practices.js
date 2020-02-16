@@ -197,5 +197,12 @@ module.exports = {
 
     // ループ内で変数を変更を強制
     'no-unmodified-loop-condition': 'off',
+
+    // https://eslint.org/docs/rules/no-unused-expressions
+    'no-unused-expressions': ['error', {
+      allowShortCircuit: false,
+      allowTernary: false,
+      allowTaggedTemplates: false,
+    }],
   }
 }
