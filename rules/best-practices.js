@@ -194,5 +194,8 @@ module.exports = {
 
     // `throw`できるものを制限
     'no-throw-literal': 'error',
+
+    // ループ内で変数を変更を強制
+    'no-unmodified-loop-condition': 'off',
   }
 }
