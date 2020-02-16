@@ -228,5 +228,8 @@ module.exports = {
 
     // 禁止するコメント(TODOなど)
     'no-warning-comments': 'off',
+
+    // https://eslint.org/docs/rules/no-with
+    'no-with': 'error',
   }
 }
