@@ -185,5 +185,8 @@ module.exports = {
     'no-self-assign': ['error', {
       props: true,
     }],
+
+    // 両側が同じ比較の禁止
+    'no-self-compare': 'error',
   }
 }
