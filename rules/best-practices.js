@@ -216,5 +216,8 @@ module.exports = {
 
     // 不要な文字結合の禁止
     'no-useless-concat': 'error',
+
+    // 不要な文字列のエスケープを禁止
+    'no-useless-escape': 'error',
   }
 }
