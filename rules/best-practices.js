@@ -191,5 +191,8 @@ module.exports = {
 
     // コンマ演算子の禁止
     'no-sequences': 'error',
+
+    // `throw`できるものを制限
+    'no-throw-literal': 'error',
   }
 }
