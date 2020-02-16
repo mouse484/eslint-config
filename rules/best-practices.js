@@ -243,5 +243,9 @@ module.exports = {
 
     // parseInt()の二番目の引数を必要とする
     radix: 'error',
+
+    // https://eslint.org/docs/rules/require-await
+    // (note: this is a horrible rule that should never be used) _airbnb
+    'require-await': 'off',
   }
 }
