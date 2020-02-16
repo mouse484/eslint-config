@@ -237,5 +237,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+
+    // (New) RegExpではなく`//`で正規表現を作る
+    'prefer-regex-literals': 'error',
   }
 }
