@@ -253,5 +253,8 @@ module.exports = {
 
     // スコープの一番上で変数を定義する
     'vars-on-top': 'error',
+
+    // https://eslint.org/docs/rules/wrap-iife
+    'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
   }
 }
