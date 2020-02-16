@@ -219,5 +219,8 @@ module.exports = {
 
     // 不要な文字列のエスケープを禁止
     'no-useless-escape': 'error',
+
+    // 不要な`return`の禁止
+    'no-useless-return': 'error',
   }
 }
