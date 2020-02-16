@@ -204,5 +204,8 @@ module.exports = {
       allowTernary: false,
       allowTaggedTemplates: false,
     }],
+
+    // 未使用のラベルを禁止
+    'no-unused-labels': 'error',
   }
 }
