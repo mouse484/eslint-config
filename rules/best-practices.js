@@ -232,6 +232,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-with
     'no-with': 'error',
 
+    // 正規表現パターンの名前付きキャプチャグループ
+    'prefer-named-capture-group': 'error',
+
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
   }
