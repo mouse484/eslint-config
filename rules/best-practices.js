@@ -250,5 +250,8 @@ module.exports = {
 
     // 正規表現にuフラグをつける事を強制
     'require-unicode-regexp': 'error',
+
+    // スコープの一番上で変数を定義する
+    'vars-on-top': 'error',
   }
 }
