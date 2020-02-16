@@ -210,5 +210,8 @@ module.exports = {
 
     // 不要な .call() と .apply() の禁止
     'no-useless-call': 'off',
+
+    // 不要な`catch`の禁止
+    'no-useless-catch': 'error',
   }
 }
