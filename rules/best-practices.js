@@ -225,5 +225,8 @@ module.exports = {
 
     // voidの禁止
     'no-void': 'error',
+
+    // 禁止するコメント(TODOなど)
+    'no-warning-comments': 'off',
   }
 }
