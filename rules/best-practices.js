@@ -188,5 +188,8 @@ module.exports = {
 
     // 両側が同じ比較の禁止
     'no-self-compare': 'error',
+
+    // コンマ演算子の禁止
+    'no-sequences': 'error',
   }
 }
