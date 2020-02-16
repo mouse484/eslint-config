@@ -207,5 +207,8 @@ module.exports = {
 
     // 未使用のラベルを禁止
     'no-unused-labels': 'error',
+
+    // 不要な .call() と .apply() の禁止
+    'no-useless-call': 'off',
   }
 }
