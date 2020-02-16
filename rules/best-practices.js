@@ -180,5 +180,10 @@ module.exports = {
 
     // `javascript:` urlを禁止
     'no-script-url': 'error',
+
+    // 自己割り当ての禁止
+    'no-self-assign': ['error', {
+      props: true,
+    }],
   }
 }
