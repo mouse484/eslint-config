@@ -247,5 +247,8 @@ module.exports = {
     // https://eslint.org/docs/rules/require-await
     // (note: this is a horrible rule that should never be used) _airbnb
     'require-await': 'off',
+
+    // 正規表現にuフラグをつける事を強制
+    'require-unicode-regexp': 'error',
   }
 }
