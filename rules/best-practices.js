@@ -240,5 +240,8 @@ module.exports = {
 
     // (New) RegExpではなく`//`で正規表現を作る
     'prefer-regex-literals': 'error',
+
+    // parseInt()の二番目の引数を必要とする
+    radix: 'error',
   }
 }
