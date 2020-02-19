@@ -13,5 +13,8 @@ module.exports = {
 
     // 特定のグローバルを許可しない
     'no-restricted-globals': confusingBrowserGlobals,
+
+    // https://eslint.org/docs/rules/no-shadow
+    'no-shadow': 'error',
   }
 };
