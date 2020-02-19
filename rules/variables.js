@@ -1,3 +1,5 @@
+const confusingBrowserGlobals = require('confusing-browser-globals');
+
 module.exports = {
   rules: {
     // 定義時に変数の初期化を強制または禁止
@@ -8,5 +10,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-label-var
     'no-label-var': 'error',
+
+    // 特定のグローバルを許可しない
+    'no-restricted-globals': confusingBrowserGlobals,
   }
 };
