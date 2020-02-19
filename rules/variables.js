@@ -5,5 +5,8 @@ module.exports = {
 
     // 変数の削除を禁止
     'no-delete-var': 'error',
+
+    // https://eslint.org/docs/rules/no-label-var
+    'no-label-var': 'error',
   }
 };
