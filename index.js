@@ -87,7 +87,7 @@ module.exports = {
     'comma-style': 'error', // コンマを後ろにつける
     'comma-dangle': 'error', // オブジェクト等の最後のコンマは無し
 
-    'no-useless-constructor': 'error', // 不要なコンストラクターの禁止
+    'no-useless-constructor': 'off', // 不要なコンストラクターの禁止
 
     'no-new-wrappers': 'error', // Stringとかはnew無しで使う
 
