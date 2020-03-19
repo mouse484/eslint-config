@@ -27,5 +27,8 @@ module.exports = {
 
     // process.envの禁止
     'no-process-env': 'off',
+
+    // process.exit()の禁止
+    'no-process-exit': 'off',
   }
 }
