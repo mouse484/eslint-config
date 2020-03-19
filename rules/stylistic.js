@@ -8,5 +8,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/array-element-newline
     'array-bracket-spacing': ['error', 'never'],
+
+    // https://eslint.org/docs/rules/block-spacing
+    'block-spacing': ['error', 'always'],
   }
 }
