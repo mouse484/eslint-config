@@ -12,8 +12,11 @@ module.exports = {
 
     // https://eslint.org/docs/rules/handle-callback-err
     'handle-callback-err': 'off',
-    
+
     // https://eslint.org/docs/rules/no-buffer-constructor
     'no-buffer-constructor': 'error',
+
+    // https://eslint.org/docs/rules/no-mixed-requires
+    'no-mixed-requires': ['off', false],
   }
 }
