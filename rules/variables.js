@@ -19,5 +19,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-shadow-restricted-names
     'no-shadow-restricted-names': 'error',
+
+    // 宣言さていない変数の禁止(globalで定義されていれば別)
+    'no-undef-init': 'error',
   }
 };
