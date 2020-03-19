@@ -24,5 +24,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-path-concat
     'no-path-concat': 'error',
+
+    // process.envの禁止
+    'no-process-env': 'off',
   }
 }
