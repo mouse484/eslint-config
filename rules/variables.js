@@ -23,5 +23,8 @@ module.exports = {
     // 宣言さていない変数の禁止(globalで定義されていれば別)
     'no-undef': 'error',
     'no-undef-init': 'error',
+
+    // 未定義の変数の禁止
+    'no-undefined': 'error',
   }
 };
