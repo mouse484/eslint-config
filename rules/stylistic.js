@@ -40,5 +40,8 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'always-multiline',
     }],
+
+    // https://eslint.org/docs/rules/comma-spacing
+    'comma-spacing': ['error', { before: false, after: true }],
   }
 }
