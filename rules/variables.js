@@ -21,6 +21,7 @@ module.exports = {
     'no-shadow-restricted-names': 'error',
 
     // 宣言さていない変数の禁止(globalで定義されていれば別)
+    'no-undef': 'error',
     'no-undef-init': 'error',
   }
 };
