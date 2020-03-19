@@ -43,5 +43,22 @@ module.exports = {
 
     // https://eslint.org/docs/rules/comma-spacing
     'comma-spacing': ['error', { before: false, after: true }],
+
+    // https://eslint.org/docs/rules/comma-style
+    'comma-style': ['error', 'last', {
+      exceptions: {
+        ArrayExpression: false,
+        ArrayPattern: false,
+        ArrowFunctionExpression: false,
+        CallExpression: false,
+        FunctionDeclaration: false,
+        FunctionExpression: false,
+        ImportDeclaration: false,
+        ObjectExpression: false,
+        ObjectPattern: false,
+        VariableDeclaration: false,
+        NewExpression: false,
+      }
+    }],
   }
 }
