@@ -9,5 +9,8 @@ module.exports = {
 
     // requireをトップレベルで行う
     'global-require': 'error',
+
+    // https://eslint.org/docs/rules/handle-callback-err
+    'handle-callback-err': 'off',
   }
 }
