@@ -21,5 +21,8 @@ module.exports = {
 
     // require関数でnew演算子の使用を禁止します
     'no-new-require': 'error',
+
+    // https://eslint.org/docs/rules/no-path-concat
+    'no-path-concat': 'error',
   }
 }
