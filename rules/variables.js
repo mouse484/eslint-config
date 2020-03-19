@@ -29,5 +29,8 @@ module.exports = {
 
     // コードで使用されていない変数の宣言を禁止
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+
+    // 定義する前の変数の使用を禁止
+    'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
   }
 };
