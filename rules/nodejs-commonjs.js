@@ -30,5 +30,8 @@ module.exports = {
 
     // process.exit()の禁止
     'no-process-exit': 'off',
+
+    // https://eslint.org/docs/rules/no-restricted-modules
+    'no-restricted-modules': 'off',
   }
 }
