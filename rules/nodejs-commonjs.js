@@ -6,5 +6,8 @@ module.exports = {
   rules: {
     // コールバック後にリターンを強制
     'callback-return': 'off',
+
+    // requireをトップレベルで行う
+    'global-require': 'error',
   }
 }
