@@ -26,5 +26,8 @@ module.exports = {
 
     // 未定義の変数の禁止
     'no-undefined': 'error',
+
+    // コードで使用されていない変数の宣言を禁止
+    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
   }
 };
