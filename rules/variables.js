@@ -16,5 +16,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-shadow
     'no-shadow': 'error',
+
+    // https://eslint.org/docs/rules/no-shadow-restricted-names
+    'no-shadow-restricted-names': 'error',
   }
 };
