@@ -18,5 +18,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-mixed-requires
     'no-mixed-requires': ['off', false],
+
+    // require関数でnew演算子の使用を禁止します
+    'no-new-require': 'error',
   }
 }
