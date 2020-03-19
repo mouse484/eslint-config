@@ -33,5 +33,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-restricted-modules
     'no-restricted-modules': 'off',
+
+    // https://eslint.org/docs/rules/no-sync
+    'no-sync': 'off',
   }
 }
