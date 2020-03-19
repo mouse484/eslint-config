@@ -17,5 +17,19 @@ module.exports = {
 
     // https://eslint.org/docs/rules/camelcase
     camelcase: ['error', { properties: 'never', ignoreDestructuring: false }],
+
+    // https://eslint.org/docs/rules/capitalized-comments
+    'capitalized-comments': ['off', 'never', {
+      line: {
+        ignorePattern: '.*',
+        ignoreInlineComments: true,
+        ignoreConsecutiveComments: true,
+      },
+      block: {
+        ignorePattern: '.*',
+        ignoreInlineComments: true,
+        ignoreConsecutiveComments: true,
+      },
+    }],
   }
 }
