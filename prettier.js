@@ -1,18 +1,5 @@
 'use strict';
-
-const prettier = {
-  printWidth: 80,
-  tabWidth: 2,
-  useTabs: false,
-  semi: true,
-  singleQuote: true,
-  quoteProps: 'as-needed',
-  trailingComma: 'es5',
-  bracketSpacing: true,
-  arrowParens: 'always',
-  vueIndentScriptAndStyle: true,
-  endOfLine: 'lf'
-}
+const prettier = require("./.prettierrc.js")
 
 module.exports = {
   plugins: ['prettier'],
@@ -20,5 +7,4 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', prettier]
   },
-  prettier
 };
