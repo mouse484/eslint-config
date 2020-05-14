@@ -74,5 +74,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/computed-property-spacing
     'computed-property-spacing': ['error', 'never'],
+
+    // https://eslint.org/docs/rules/consistent-this
+    'consistent-this': 'off',
   },
 };
