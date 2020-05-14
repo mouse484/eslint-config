@@ -88,9 +88,16 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
 
     // https://eslint.org/docs/rules/func-name-matching
-    'func-name-matching': ['off', 'always', {
-      includeCommonJSModuleExports: false,
-      considerPropertyDescriptor: true,
-    }],
+    'func-name-matching': [
+      'off',
+      'always',
+      {
+        includeCommonJSModuleExports: false,
+        considerPropertyDescriptor: true,
+      },
+    ],
+
+    // 関数に名前をつける
+    'func-names': 'warn',
   },
 };
