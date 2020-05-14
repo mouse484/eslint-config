@@ -86,5 +86,11 @@ module.exports = {
 
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
+
+    // https://eslint.org/docs/rules/func-name-matching
+    'func-name-matching': ['off', 'always', {
+      includeCommonJSModuleExports: false,
+      considerPropertyDescriptor: true,
+    }],
   },
 };
