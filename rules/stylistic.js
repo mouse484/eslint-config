@@ -80,5 +80,8 @@ module.exports = {
 
     // ファイルの最後は改行する
     'eol-last': ['error', 'always'],
+
+    // https://eslint.org/docs/rules/function-call-argument-newline
+    'function-call-argument-newline': ['error', 'consistent'],
   },
 };
