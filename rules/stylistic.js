@@ -77,5 +77,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/consistent-this
     'consistent-this': 'off',
+
+    // ファイルの最後は改行する
+    'eol-last': ['error', 'always'],
   },
 };
