@@ -99,5 +99,8 @@ module.exports = {
 
     // 関数に名前をつける
     'func-names': 'warn',
+
+    // https://eslint.org/docs/rules/func-style
+    'func-style': ['error', 'expression'],
   },
 };
