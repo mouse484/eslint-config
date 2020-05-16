@@ -3,11 +3,11 @@ module.exports = {
     // https://eslint.org/docs/rules/array-bracket-newline
     'array-bracket-newline': ['error', 'consistent'],
 
-    // https://eslint.org/docs/rules/array-bracket-spacing
-    'array-element-newline': ['error', { multiline: true, minItems: 3 }],
-
     // https://eslint.org/docs/rules/array-element-newline
     'array-bracket-spacing': ['error', 'never'],
+
+    // https://eslint.org/docs/rules/array-bracket-spacing
+    'array-element-newline': ['error', { multiline: true, minItems: 3 }],
 
     // https://eslint.org/docs/rules/block-spacing
     'block-spacing': ['error', 'always'],
@@ -81,9 +81,6 @@ module.exports = {
     // ファイルの最後は改行する
     'eol-last': ['error', 'always'],
 
-    // https://eslint.org/docs/rules/function-call-argument-newline
-    'function-call-argument-newline': ['error', 'consistent'],
-
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
 
@@ -102,5 +99,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/func-style
     'func-style': ['error', 'expression'],
+
+    // https://eslint.org/docs/rules/function-call-argument-newline
+    'function-call-argument-newline': ['error', 'consistent'],
   },
 };
