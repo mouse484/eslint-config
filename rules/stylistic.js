@@ -102,5 +102,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],
+
+    // https://eslint.org/docs/rules/function-paren-newline
+    'function-paren-newline': ['error', 'consistent'],
   },
 };
