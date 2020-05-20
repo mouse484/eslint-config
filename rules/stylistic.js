@@ -179,5 +179,8 @@ module.exports = {
 
     // 改行をunix(lf,\n)にする
     'linebreak-style': ['error', 'unix'],
+
+    // https://eslint.org/docs/rules/lines-around-comment
+    'lines-around-comment': 'off',
   },
 };
