@@ -192,5 +192,22 @@ module.exports = {
 
     // 最大ネスト数4
     'max-depth': ['error', 4],
+
+    // specify the maximum length of a line in your program
+    // https://eslint.org/docs/rules/max-len
+    'max-len': [
+      'error',
+      {
+        code: 80,
+        tabWidth: 2,
+        comments: 80,
+        ignoreComments: false,
+        ignoreTrailingComments: false,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
+      },
+    ],
   },
 };
