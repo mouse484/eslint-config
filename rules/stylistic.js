@@ -108,5 +108,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/id-blacklist
     'id-blacklist': 'off',
+
+    // 識別子(id)の長さ
+    'id-length': ['error', { min: 2 }],
   },
 };
