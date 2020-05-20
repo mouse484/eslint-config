@@ -224,5 +224,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-statements
     'max-statements': 'off',
+
+    // https://eslint.org/docs/rules/max-statements-per-line
+    'max-statements-per-line': 'off',
   },
 };
