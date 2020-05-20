@@ -215,5 +215,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-lines-per-function
     'max-lines-per-function': 'off',
+
+    // https://eslint.org/docs/rules/max-nested-callbacks
+    'max-nested-callbacks': 'error',
   },
 };
