@@ -182,5 +182,12 @@ module.exports = {
 
     // https://eslint.org/docs/rules/lines-around-comment
     'lines-around-comment': 'off',
+
+    // https://eslint.org/docs/rules/lines-between-class-members
+    'lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: false },
+    ],
   },
 };
