@@ -221,5 +221,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-params
     'max-params': ['error', 3],
+
+    // https://eslint.org/docs/rules/max-statements
+    'max-statements': 'off',
   },
 };
