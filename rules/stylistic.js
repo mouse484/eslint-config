@@ -149,5 +149,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': 'off',
+
+    // オブジェクトのキーと値の間　{ "foo": 42 }
+    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
   },
 };
