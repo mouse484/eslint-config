@@ -189,5 +189,8 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: false },
     ],
+
+    // 最大ネスト数4
+    'max-depth': ['error', 4],
   },
 };
