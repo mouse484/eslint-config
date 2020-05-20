@@ -209,5 +209,8 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
+
+    // https://eslint.org/docs/rules/max-lines
+    'max-lines': 'off',
   },
 };
