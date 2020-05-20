@@ -218,5 +218,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-nested-callbacks
     'max-nested-callbacks': 'error',
+
+    // https://eslint.org/docs/rules/max-params
+    'max-params': ['error', 3],
   },
 };
