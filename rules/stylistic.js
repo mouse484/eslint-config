@@ -152,5 +152,19 @@ module.exports = {
 
     // オブジェクトのキーと値の間　{ "foo": 42 }
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+
+    // https://eslint.org/docs/rules/keyword-spacing
+    'keyword-spacing': [
+      'error',
+      {
+        before: true,
+        after: true,
+        overrides: {
+          return: { after: true },
+          throw: { after: true },
+          case: { after: true },
+        },
+      },
+    ],
   },
 };
