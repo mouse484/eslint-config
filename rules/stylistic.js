@@ -146,5 +146,8 @@ module.exports = {
         ignoreComments: false,
       },
     ],
+
+    // https://eslint.org/docs/rules/jsx-quotes
+    'jsx-quotes': 'off',
   },
 };
