@@ -114,5 +114,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/id-match
     'id-match': 'off',
+
+    // https://eslint.org/docs/rules/implicit-arrow-linebreak
+    'implicit-arrow-linebreak': ['error', 'beside'],
   },
 };
