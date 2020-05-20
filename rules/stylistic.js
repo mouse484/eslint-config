@@ -111,5 +111,8 @@ module.exports = {
 
     // 識別子(id)の長さ
     'id-length': ['error', { min: 2 }],
+
+    // https://eslint.org/docs/rules/id-match
+    'id-match': 'off',
   },
 };
