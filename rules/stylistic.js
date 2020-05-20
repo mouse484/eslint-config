@@ -166,5 +166,15 @@ module.exports = {
         },
       },
     ],
+
+    // https://eslint.org/docs/rules/line-comment-position
+    'line-comment-position': [
+      'error',
+      {
+        position: 'above',
+        ignorePattern: '',
+        applyDefaultPatterns: true,
+      },
+    ],
   },
 };
