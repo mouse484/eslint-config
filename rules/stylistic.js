@@ -212,5 +212,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-lines
     'max-lines': 'off',
+
+    // https://eslint.org/docs/rules/max-lines-per-function
+    'max-lines-per-function': 'off',
   },
 };
