@@ -176,5 +176,8 @@ module.exports = {
         applyDefaultPatterns: true,
       },
     ],
+
+    // 改行をunix(lf,\n)にする
+    'linebreak-style': ['error', 'unix'],
   },
 };
