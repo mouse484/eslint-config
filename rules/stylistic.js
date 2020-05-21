@@ -233,5 +233,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/multiline-ternary
     'multiline-ternary': ['error', 'always-multiline'],
+
+    // https://eslint.org/docs/rules/new-cap
+    'new-cap': 'error',
   },
 };
