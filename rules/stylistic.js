@@ -287,5 +287,8 @@ module.exports = {
 
     // タブを禁止
     'no-tabs': 'error',
+
+    // 3項演算子の禁止
+    'no-ternary': 'off',
   },
 };
