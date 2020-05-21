@@ -230,5 +230,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/multiline-comment-style
     'multiline-comment-style': 'off',
+
+    // https://eslint.org/docs/rules/multiline-ternary
+    'multiline-ternary': ['error', 'always-multiline'],
   },
 };
