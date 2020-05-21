@@ -245,5 +245,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-array-constructor
     'no-array-constructor': 'error',
+
+    // https://eslint.org/docs/rules/no-bitwise
+    'no-bitwise': 'error',
   },
 };
