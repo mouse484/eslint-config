@@ -275,5 +275,8 @@ module.exports = {
 
     // 3項演算子のネストを禁止
     'no-nested-ternary': 'error',
+
+    // new Object禁止
+    'no-new-object': 'error',
   },
 };
