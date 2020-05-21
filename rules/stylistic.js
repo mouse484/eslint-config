@@ -266,5 +266,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-multi-assign
     'no-multi-assign': 'error',
+
+    // https://eslint.org/docs/rules/no-multiple-empty-lines
+    'no-multiple-empty-lines': 'error',
   },
 };
