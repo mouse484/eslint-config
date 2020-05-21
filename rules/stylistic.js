@@ -242,5 +242,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/newline-per-chained-call
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 3 }],
+
+    // https://eslint.org/docs/rules/no-array-constructor
+    'no-array-constructor': 'error',
   },
 };
