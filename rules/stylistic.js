@@ -257,5 +257,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-lonely-if
     'no-lonely-if': 'error',
+
+    // https://eslint.org/docs/rules/no-mixed-operators
+    'no-mixed-operators': 'error',
   },
 };
