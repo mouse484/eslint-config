@@ -290,5 +290,8 @@ module.exports = {
 
     // 3項演算子の禁止
     'no-ternary': 'off',
+
+    // https://eslint.org/docs/rules/no-trailing-spaces
+    'no-trailing-spaces': 'error',
   },
 };
