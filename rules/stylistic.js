@@ -284,5 +284,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': 'off',
+
+    // タブを禁止
+    'no-tabs': 'error',
   },
 };
