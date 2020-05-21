@@ -272,5 +272,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-negated-condition
     'no-negated-condition': 'off',
+
+    // 3項演算子のネストを禁止
+    'no-nested-ternary': 'error',
   },
 };
