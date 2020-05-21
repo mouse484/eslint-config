@@ -239,5 +239,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/new-parens
     'new-parens': 'error',
+
+    // https://eslint.org/docs/rules/newline-per-chained-call
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 3 }],
   },
 };
