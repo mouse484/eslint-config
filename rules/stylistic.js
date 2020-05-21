@@ -278,5 +278,8 @@ module.exports = {
 
     // new Object禁止
     'no-new-object': 'error',
+
+    // ++と--の禁止
+    'no-plusplus': 'error',
   },
 };
