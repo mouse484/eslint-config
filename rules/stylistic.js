@@ -254,5 +254,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-inline-comments
     'no-inline-comments': 'off',
+
+    // https://eslint.org/docs/rules/no-lonely-if
+    'no-lonely-if': 'error',
   },
 };
