@@ -248,5 +248,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-bitwise
     'no-bitwise': 'error',
+
+    // https://eslint.org/docs/rules/no-continue
+    'no-continue': 'error',
   },
 };
