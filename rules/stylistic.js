@@ -236,5 +236,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/new-cap
     'new-cap': 'error',
+
+    // https://eslint.org/docs/rules/new-parens
+    'new-parens': 'error',
   },
 };
