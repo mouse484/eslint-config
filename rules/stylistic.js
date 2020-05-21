@@ -269,5 +269,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': 'error',
+
+    // https://eslint.org/docs/rules/no-negated-condition
+    'no-negated-condition': 'off',
   },
 };
