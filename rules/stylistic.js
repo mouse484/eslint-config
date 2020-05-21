@@ -260,5 +260,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-mixed-operators
     'no-mixed-operators': 'error',
+
+    // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
+    'no-mixed-spaces-and-tabs': 'error',
   },
 };
