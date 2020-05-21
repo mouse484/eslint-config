@@ -263,5 +263,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
     'no-mixed-spaces-and-tabs': 'error',
+
+    // https://eslint.org/docs/rules/no-multi-assign
+    'no-multi-assign': 'error',
   },
 };
