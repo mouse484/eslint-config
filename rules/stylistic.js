@@ -281,5 +281,8 @@ module.exports = {
 
     // ++と--の禁止
     'no-plusplus': 'error',
+
+    // https://eslint.org/docs/rules/no-restricted-syntax
+    'no-restricted-syntax': 'off',
   },
 };
