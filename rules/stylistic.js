@@ -300,5 +300,9 @@ module.exports = {
     // 不要な三項演算子の禁止
     // https://eslint.org/docs/rules/no-unneeded-ternary
     'no-unneeded-ternary': 'error',
+
+    // プロパティの前の空白を禁止
+    // https://eslint.org/docs/rules/no-whitespace-before-property
+    'no-whitespace-before-property': 'error',
   },
 };
