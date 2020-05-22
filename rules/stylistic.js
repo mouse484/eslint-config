@@ -307,5 +307,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/nonblock-statement-body-position
     'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
+
+    // https://eslint.org/docs/rules/object-curly-newline
+    'object-curly-newline': 'error',
   },
 };
