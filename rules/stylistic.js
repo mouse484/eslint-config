@@ -304,5 +304,8 @@ module.exports = {
     // プロパティの前の空白を禁止
     // https://eslint.org/docs/rules/no-whitespace-before-property
     'no-whitespace-before-property': 'error',
+
+    // https://eslint.org/docs/rules/nonblock-statement-body-position
+    'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
   },
 };
