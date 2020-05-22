@@ -310,5 +310,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/object-curly-newline
     'object-curly-newline': 'error',
+
+    // https://eslint.org/docs/rules/object-curly-spacing
+    'object-curly-spacing': ['error', 'always'],
   },
 };
