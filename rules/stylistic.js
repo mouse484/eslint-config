@@ -293,5 +293,8 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-trailing-spaces
     'no-trailing-spaces': 'error',
+
+    // https://eslint.org/docs/rules/no-underscore-dangle
+    'no-underscore-dangle': 'error',
   },
 };
