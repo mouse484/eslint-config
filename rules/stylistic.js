@@ -296,5 +296,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-underscore-dangle
     'no-underscore-dangle': 'error',
+
+    // 不要な三項演算子の禁止
+    // https://eslint.org/docs/rules/no-unneeded-ternary
+    'no-unneeded-ternary': 'error',
   },
 };
