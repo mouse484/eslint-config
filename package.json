@@ -1,4 +1,7 @@
 {
   "name": "eslint-config-mouse",
-  "private": "true"
+  "private": "true",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
