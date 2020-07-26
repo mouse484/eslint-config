@@ -1,7 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = node;
-
-function node() {
-    // TODO
-}
+module.exports = require("./.eslintrc.json");
