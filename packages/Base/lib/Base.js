@@ -1,7 +1,5 @@
-'use strict';
+"use strict";
 
-module.exports = base;
-
-function base() {
-    // TODO
-}
+module.exports = {
+  extends: "eslint:recommended",
+};
