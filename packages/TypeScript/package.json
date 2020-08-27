@@ -25,5 +25,10 @@
   },
   "bugs": {
     "url": "https://github.com/mouse484/eslint-config/issues"
+  },
+  "dependencies": {
+    "@mouse_484/eslint-config-base": "",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1"
   }
 }

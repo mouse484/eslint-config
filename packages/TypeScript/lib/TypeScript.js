@@ -1,7 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = typeScript;
-
-function typeScript() {
-    // TODO
-}
+module.exports = require("./.eslintrc.json");
