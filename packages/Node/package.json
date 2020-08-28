@@ -27,6 +27,6 @@
     "url": "https://github.com/mouse484/eslint-config/issues"
   },
   "dependencies": {
-    "@mouse_484/eslint-config-base": ""
+    "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.tk/Base?next"
   }
 }
