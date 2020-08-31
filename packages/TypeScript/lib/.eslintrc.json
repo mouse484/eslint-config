@@ -1,8 +1,17 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "extends": [
-    "@mouse_484/eslint-config-base",
-    "plugin:@typescript-eslint/recommended"
-  ]
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint"],
+      "extends": ["plugin:@typescript-eslint/eslint-recommended"],
+      "rules": {
+        // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+      }
+    }
+  ],
+  "ignorePatterns": ["dist/"]
 }
