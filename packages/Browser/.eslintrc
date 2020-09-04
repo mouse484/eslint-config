@@ -1,0 +1,6 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "@mouse_484/eslint-config-base"
+}

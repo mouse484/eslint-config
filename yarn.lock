@@ -784,8 +784,7 @@
 
 "@mouse_484/eslint-config-base@https://eslint-config.mouse484.tk/Base?next":
   version "0.0.0"
-  uid "7dcdf759230fcc53e36eed67eebbb1b3f7ac9dbd"
-  resolved "https://eslint-config.mouse484.tk/Base?next#7dcdf759230fcc53e36eed67eebbb1b3f7ac9dbd"
+  resolved "https://eslint-config.mouse484.tk/Base?next#5a3a405d5fa556b70f1f24c6de84a8db518d93d5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

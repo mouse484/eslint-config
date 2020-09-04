@@ -1,0 +1,9 @@
+{
+  "name": "@mouse_484/eslint-config-browser",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.tk/Base?next"
+  }
+}
