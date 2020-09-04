@@ -1,6 +1,9 @@
 {
   "name": "eslint-config-mouse",
   "private": "true",
+  "scripts": {
+    "new": "cd packages && cp -r .template new"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
