@@ -1,13 +1,11 @@
 {
-  "parserOptions": {
-    "sourceType": "module"
-  },
   "overrides": [
     {
       "files": ["*.ts"],
       "parser": "@typescript-eslint/parser",
+      "parserOptions": { "sourceType": "module" },
       "plugins": ["@typescript-eslint"],
-      "extends": ["plugin:@typescript-eslint/eslint-recommended"],
+      "extends": ["plugin:@typescript-eslint/eslint-recommended"]
     }
   ],
   "ignorePatterns": ["dist/"]
