@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.1"
