@@ -22,6 +22,6 @@
   "dependencies": {
     "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.tk/Base?next",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1"
+    "@typescript-eslint/parser": "^4.3.0"
   }
 }
