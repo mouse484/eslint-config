@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.tk/Base?next"
+    "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.vercel.app/Base?next"
   }
 }
