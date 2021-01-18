@@ -1,24 +1,8 @@
 {
   "name": "@mouse_484/eslint-config-typescript",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "mouse_484 <escmouse484@gmail.com>",
-  "homepage": "https://github.com/mouse484/eslint-config#readme",
+  "main": "index.js",
   "license": "MIT",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mouse484/eslint-config.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/mouse484/eslint-config/issues"
-  },
   "dependencies": {
     "@mouse_484/eslint-config-base": "https://eslint-config.mouse484.vercel.app/Base?next",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
