@@ -2,7 +2,7 @@
   "name": "eslint-config-mouse",
   "private": "true",
   "scripts": {
-    "new": "cd packages && cp -r .template new"
+    "new": "node ./utils/new"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
