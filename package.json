@@ -5,6 +5,7 @@
     "new": "cd packages && cp -r .template new"
   },
   "devDependencies": {
+    "eslint": "^7.18.0",
     "lerna": "^3.22.1"
   },
   "workspaces": [
