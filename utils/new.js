@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { argv } = require('process');
+const { format } = require('prettier');
 
 const [, , newName = 'new'] = argv;
 
@@ -19,7 +20,16 @@ fs.readdir(templateDirPath, (err, files) => {
     const srcPath = path.join(templateDirPath, value);
     const destPath = path.join(destDirPath, value);
 
-    fs.copyFileSync(srcPath, destPath);
+    if (value === 'package.json') {
+      const packageJson = JSON.parse(fs.readFileSync(srcPath));
+      packageJson.name = `@mouse_484/eslint-config-${newName.toLowerCase()}`;
+      fs.writeFileSync(
+        destPath,
+        format(JSON.stringify(packageJson), { parser: 'json-stringify' })
+      );
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
 
     console.log(`Make file: ${destPath}`);
   });
