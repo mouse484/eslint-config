@@ -1,0 +1,10 @@
+{
+  "name": "@mouse_484/eslint-config-react",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-react": "^7.22.0"
+  }
+}

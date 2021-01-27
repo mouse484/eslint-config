@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.tsx"],
+      "env": {
+        "browser": true,
+        "es6": true
+      },
+      "extends": "plugin:react/recommended",
+      "plugins": ["react"]
+    }
+  ]
+}
