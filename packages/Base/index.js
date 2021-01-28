@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./eslintrc');
+module.exports = require('./.eslintrc');
