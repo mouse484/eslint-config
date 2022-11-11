@@ -38,8 +38,8 @@
 
 "@mouse_484/eslint-config-base@https://eslint-config.mouse484.vercel.app/Base?main":
   version "0.0.0"
-  uid "4d3198afb795e137eda5fb2d7e94561c55e72361"
-  resolved "https://eslint-config.mouse484.vercel.app/Base?main#4d3198afb795e137eda5fb2d7e94561c55e72361"
+  uid cb4fa8ad11ead81ba7765541262c267dc6e87be0
+  resolved "https://eslint-config.mouse484.vercel.app/Base?main#cb4fa8ad11ead81ba7765541262c267dc6e87be0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
