@@ -1,0 +1,3 @@
+{
+  "extends": "@mouse_484/eslint-config-node"
+}
