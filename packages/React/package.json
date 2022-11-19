@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "eslint-plugin-react": "^7.31.10"
+    "eslint-plugin-react": "^7.31.11"
   }
 }
